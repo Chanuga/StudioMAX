@@ -29,6 +29,20 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+      function bigImg(x) {
+        x.style.height = "auto";
+        x.style.width = "auto";
+        x.style.border= "10px solid #343a40";
+      }
+      
+      function normalImg(x) {
+        x.style.height = "auto";
+        x.style.width = "auto";
+         x.style.border= "0px solid white";
+      }
+    </script>
     
   </head>
   <body>
@@ -45,12 +59,12 @@
       <div class="site-mobile-menu-body"></div>
     </div>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#"><a href="index.html" class="text-black h2 mb-0">Studio MAX<span class="text-primary">.</span></a></a>
+        <a class="navbar-brand" href="#"><a href="index.html" class="text-white h2 mb-0">Studio MAX<span class="text-primary">.</span></a></a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         </ul>
         <form class="form-inline my-2 my-lg-0"><ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -74,12 +88,12 @@
       </div>
     </nav>
 
-    <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('images/hero_bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('images/person_6.jpg');" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" data-aos="fade-up">
-            <h1>Sayuri Devapriya <br> Weds <br> Sanduna Denawaka</h1>
-            <p class="caption">36 Pictures / Wedding</p>
+            <h1>Some <br> Special <br> Movements</h1>
+            <p class="caption">36 Pictures</p>
           </div>
         </div>
       </div>
@@ -91,120 +105,123 @@
     <div class="container">
       
       <div class="row no-gutters" id="lightgallery">
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
+        <!--1st Line-->
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">
           <a href="#"><img src="images/nature_small_1.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam omnis quaerat molestiae, praesentium. Ipsam, reiciendis. Aut molestiae animi earum laudantium.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam omnis quaerat molestiae, praesentium. Ipsam, reiciendis. Aut molestiae animi earum laudantium.</p>">
           <a href="#"><img src="images/nature_small_2.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis, dolorum illo temporibus culpa eaque dolore rerum quod voluptate doloribus.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis, dolorum illo temporibus culpa eaque dolore rerum quod voluptate doloribus.</p>">
           <a href="#"><img src="images/nature_small_3.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis quae iusto omnis praesentium labore tempore eligendi quo corporis sapiente.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis quae iusto omnis praesentium labore tempore eligendi quo corporis sapiente.</p>">
           <a href="#"><img src="images/nature_small_4.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatum voluptate tempore aliquam, dolorem distinctio. In quas maiores tenetur sequi.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatum voluptate tempore aliquam, dolorem distinctio. In quas maiores tenetur sequi.</p>">
           <a href="#"><img src="images/nature_small_5.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cum culpa blanditiis illum, voluptatum iusto quisquam mollitia debitis quaerat maiores?</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cum culpa blanditiis illum, voluptatum iusto quisquam mollitia debitis quaerat maiores?</p>">
           <a href="#"><img src="images/nature_small_6.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique impedit possimus, laboriosam enim at placeat nihil voluptatibus voluptate hic!</p>">
+        <!--2nd Line-->
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique impedit possimus, laboriosam enim at placeat nihil voluptatibus voluptate hic!</p>">
           <a href="#"><img src="images/nature_small_7.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vitae sed cum mollitia itaque soluta laboriosam eaque sit ratione, aliquid.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vitae sed cum mollitia itaque soluta laboriosam eaque sit ratione, aliquid.</p>">
           <a href="#"><img src="images/nature_small_8.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis debitis beatae facilis quos, enim quis nobis magnam architecto earum!</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis debitis beatae facilis quos, enim quis nobis magnam architecto earum!</p>">
           <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque officiis magnam, facilis nam eos perspiciatis eligendi pariatur numquam debitis quos!</p>">
+          <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis consequatur quam et, delectus, cum iste ipsa animi eligendi obcaecati nemo.</p>">
+          <a href="#"><img src="images/nature_small_8.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quia illo voluptatibus numquam inventore, ab asperiores molestiae distinctio atque nihil.</p>">
+          <a href="#"><img src="images/nature_small_7.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque officiis magnam, facilis nam eos perspiciatis eligendi pariatur numquam debitis quos!</p>">
-          <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis consequatur quam et, delectus, cum iste ipsa animi eligendi obcaecati nemo.</p>">
-          <a href="#"><img src="images/nature_small_8.jpg" alt="IMage" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quia illo voluptatibus numquam inventore, ab asperiores molestiae distinctio atque nihil.</p>">
-          <a href="#"><img src="images/nature_small_7.jpg" alt="IMage" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt unde placeat obcaecati sapiente illum, fuga nostrum necessitatibus delectus maiores magnam.</p>">
+        <!--3rd Line-->
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt unde placeat obcaecati sapiente illum, fuga nostrum necessitatibus delectus maiores magnam.</p>">
           <a href="#"><img src="images/nature_small_6.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dignissimos non consectetur. Facilis totam, explicabo nam iure! Veniam modi, molestiae.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dignissimos non consectetur. Facilis totam, explicabo nam iure! Veniam modi, molestiae.</p>">
           <a href="#"><img src="images/nature_small_5.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias minus voluptatibus inventore odio. Iure amet nesciunt a, officia quo ex.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias minus voluptatibus inventore odio. Iure amet nesciunt a, officia quo ex.</p>">
           <a href="#"><img src="images/nature_small_4.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium illum consectetur dolorum consequuntur sint doloribus eveniet deleniti! Illo, quibusdam, earum.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium illum consectetur dolorum consequuntur sint doloribus eveniet deleniti! Illo, quibusdam, earum.</p>">
           <a href="#"><img src="images/nature_small_3.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad iure, inventore asperiores, cupiditate optio dignissimos labore quidem totam. Dignissimos.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad iure, inventore asperiores, cupiditate optio dignissimos labore quidem totam. Dignissimos.</p>">
           <a href="#"><img src="images/nature_small_2.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam temporibus totam similique provident delectus quos fugiat officia earum nisi voluptatibus?</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam temporibus totam similique provident delectus quos fugiat officia earum nisi voluptatibus?</p>">
           <a href="#"><img src="images/nature_small_1.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
-
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae qui aliquid nostrum unde ut officiis omnis delectus sequi deleniti!</p>">
+        <!--4th Line-->
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae qui aliquid nostrum unde ut officiis omnis delectus sequi deleniti!</p>">
           <a href="#"><img src="images/nature_small_1.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi iusto vero, soluta porro dicta quaerat tempore magni perferendis aspernatur cupiditate.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi iusto vero, soluta porro dicta quaerat tempore magni perferendis aspernatur cupiditate.</p>">
           <a href="#"><img src="images/nature_small_2.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, minus officiis modi ducimus reprehenderit at ea voluptatum consequuntur enim nulla.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, minus officiis modi ducimus reprehenderit at ea voluptatum consequuntur enim nulla.</p>">
           <a href="#"><img src="images/nature_small_3.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi hic sed, quidem illum ipsa, cum tempora quo reiciendis accusantium.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi hic sed, quidem illum ipsa, cum tempora quo reiciendis accusantium.</p>">
           <a href="#"><img src="images/nature_small_4.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex blanditiis quaerat numquam repellendus pariatur commodi neque animi voluptatum illum dolore?</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex blanditiis quaerat numquam repellendus pariatur commodi neque animi voluptatum illum dolore?</p>">
           <a href="#"><img src="images/nature_small_5.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio praesentium maiores, veritatis illum voluptas alias aut unde esse aliquam itaque.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio praesentium maiores, veritatis illum voluptas alias aut unde esse aliquam itaque.</p>">
           <a href="#"><img src="images/nature_small_6.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fugit, non facilis dignissimos minima nostrum nesciunt adipisci, quibusdam cum reprehenderit.</p>">
+        <!--5th Line-->
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fugit, non facilis dignissimos minima nostrum nesciunt adipisci, quibusdam cum reprehenderit.</p>">
           <a href="#"><img src="images/nature_small_7.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos iure delectus obcaecati atque fugit enim quaerat suscipit tenetur in ratione?</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos iure delectus obcaecati atque fugit enim quaerat suscipit tenetur in ratione?</p>">
           <a href="#"><img src="images/nature_small_8.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa neque, eos quae eaque officia, repellendus dolore tempore cumque quibusdam? Maxime?</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa neque, eos quae eaque officia, repellendus dolore tempore cumque quibusdam? Maxime?</p>">
           <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, unde quis minus ex impedit necessitatibus nostrum, neque veniam repellat officiis!</p>">
+          <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet sequi assumenda deserunt ab, tempora commodi autem debitis iusto sed.</p>">
+          <a href="#"><img src="images/nature_small_8.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, quasi, pariatur. Minima provident repellat cum, impedit, nemo exercitationem distinctio consequuntur.</p>">
+          <a href="#"><img src="images/nature_small_7.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, unde quis minus ex impedit necessitatibus nostrum, neque veniam repellat officiis!</p>">
-          <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_8.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet sequi assumenda deserunt ab, tempora commodi autem debitis iusto sed.</p>">
-          <a href="#"><img src="images/nature_small_8.jpg" alt="IMage" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_7.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, quasi, pariatur. Minima provident repellat cum, impedit, nemo exercitationem distinctio consequuntur.</p>">
-          <a href="#"><img src="images/nature_small_7.jpg" alt="IMage" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nostrum expedita consequatur rerum laboriosam tempore nisi autem animi eveniet perspiciatis.</p>">
+        <!--6th Line-->
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nostrum expedita consequatur rerum laboriosam tempore nisi autem animi eveniet perspiciatis.</p>">
           <a href="#"><img src="images/nature_small_6.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consectetur error deserunt facilis facere, consequatur at officia quae culpa voluptatibus!</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consectetur error deserunt facilis facere, consequatur at officia quae culpa voluptatibus!</p>">
           <a href="#"><img src="images/nature_small_5.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minima porro, hic dolores. Ab, doloremque facilis numquam, ipsa repellendus voluptas.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minima porro, hic dolores. Ab, doloremque facilis numquam, ipsa repellendus voluptas.</p>">
           <a href="#"><img src="images/nature_small_4.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, dolor alias. Dignissimos hic voluptatibus dolorum expedita recusandae, consequatur distinctio est.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, dolor alias. Dignissimos hic voluptatibus dolorum expedita recusandae, consequatur distinctio est.</p>">
           <a href="#"><img src="images/nature_small_3.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum similique, dolore esse quaerat incidunt ullam sit neque laboriosam velit quas.</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_2.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum similique, dolore esse quaerat incidunt ullam sit neque laboriosam velit quas.</p>">
           <a href="#"><img src="images/nature_small_2.jpg" alt="IMage" class="img-fluid"></a>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tempora deleniti, consectetur quisquam labore vitae quod quae debitis hic ab!</p>">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" style="margin-bottom: 20px;" onmouseover=bigImg(this) onmouseout=normalImg(this) data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tempora deleniti, consectetur quisquam labore vitae quod quae debitis hic ab!</p>">
           <a href="#"><img src="images/nature_small_1.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
@@ -265,10 +282,10 @@
             <h3 class="footer-heading mb-4">Follow Me</h3>
 
                 <div>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                  <a href="https://www.facebook.com/Hasitha-Karunarathna-Photography-Studio-MAX-104228707768933/?eid=ARCzLToEovT_p8q94sUw3NCmyfjH7tT0lBN-Gz6JrdtpxfProspeSuAf6X4Pzp32X0o0q2mQgUMeLu8a&timeline_context_item_type=intro_card_work&timeline_context_item_source=100002358854250&fref=tag" target="blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="https://twitter.com/" target="blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="https://www.instagram.com/" target="blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="https://www.youtube.com/watch?v=89WImqfe3ss" target="blank" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
                 </div>
 
             
@@ -279,7 +296,7 @@
         <div class="row pt-1 mt-1 text-center">
           <div class="col-md-12">
             <p>
-            © All Rights Reserved | 2020. Studio MAX <br> Designed by Pixzarloop
+            © All Rights Reserved | 2020. Studio MAX <br> Designed by <a href="https://www.facebook.com/pixzarloop/" target="blank">Pixzarloop</a>
             </p>
           </div>
         </div>
